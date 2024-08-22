@@ -1,0 +1,12 @@
+[package]
+name = "quantum_resistant_crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pqc_kyber = "0.7.1"
+#kyber = "0.1.0"  # Replace with actual crate
+pqc_dilithium = "0.2.0"  # Replace with actual crate
+solana-sdk = "1.9.0"  # Use the appropriate version
+solana-program = "2.0.6"
+
